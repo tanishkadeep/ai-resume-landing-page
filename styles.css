@@ -10,6 +10,7 @@ body {
 }
 
 #main {
+  overflow: hidden;
   background-image: radial-gradient(
       circle at 13% 47%,
       rgba(140, 140, 140, 0.03) 0%,
@@ -70,6 +71,7 @@ header {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100vw;
 }
 
 #exit-door {
@@ -225,7 +227,6 @@ header {
 .resume-text {
   position: relative;
   cursor: pointer;
-  
 }
 
 .resume-text::after {
